@@ -1,6 +1,12 @@
 namespace OopIntro;
 internal class Car
 {
+    private string _brand;
+    public string Brand
+    {
+        get { return _brand; }
+        set { _brand = value; }
+    }
     private int _tankCapacity;
     public int TankCapacity
     {
